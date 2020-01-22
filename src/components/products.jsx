@@ -11,7 +11,7 @@ class products extends Component {
 
     constructor (props) {
         super (props);
-        this.state = { response : MobileData, filter_rating : [] };
+        this.state = { response : MobileData, filter_rating : [], status: true };
     }
 
     handleFilters = (e) => {
